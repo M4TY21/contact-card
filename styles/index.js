@@ -24,7 +24,7 @@ export const Card = styled.div`
   padding: 80px;
 
   width: 25%;
-  min-width: 400px;
+  min-width: 355px;
   height: 639px;
 
   background: linear-gradient(156.58deg, #fafafa 17.17%, #c2c4cd 84.45%),

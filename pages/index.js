@@ -34,19 +34,14 @@ export default function Home() {
   return (
     <>
       <GlobalStyle />
-      <Head>
-        <title>Contact Card</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
-          rel="stylesheet"
-        />
-      </Head>
-
       <Container>
         <Card>
-          <Avatar src={AvatarImage} width={200} height={200} />
+          <Avatar
+            src={AvatarImage}
+            width={200}
+            height={200}
+            alt="Foto de Matheus Moura"
+          />
 
           <Title>Matheus Moura</Title>
 
@@ -54,19 +49,39 @@ export default function Home() {
 
           <IconsDiv>
             <Icon href="https://github.com/M4TY21" target="_blank">
-              <Image src={GithubIcon} width={30} height={30} />
+              <Image
+                src={GithubIcon}
+                width={30}
+                height={30}
+                alt="icone do Github"
+              />
             </Icon>
             <Icon href="https://instagram.com/mouramths" target="_blank">
-              <Image src={InstagramIcon} width={30} height={30} />
+              <Image
+                src={InstagramIcon}
+                width={30}
+                height={30}
+                alt="icone do Instagram"
+              />
             </Icon>
             <Icon
               href="https://www.linkedin.com/in/matheus-moura-1921771b9/"
               target="_blank"
             >
-              <Image src={LinkedinIcon} width={30} height={30} />
+              <Image
+                src={LinkedinIcon}
+                width={30}
+                height={30}
+                alt="icone do Linkedin"
+              />
             </Icon>
             <Icon href="http://wa.me/5584999926241" target="_blank">
-              <Image src={WhatsAppIcon} width={30} height={30} />
+              <Image
+                src={WhatsAppIcon}
+                width={30}
+                height={30}
+                alt="icone do WhatsApp"
+              />
             </Icon>
           </IconsDiv>
 
